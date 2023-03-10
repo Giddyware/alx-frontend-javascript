@@ -1,9 +1,4 @@
 export default function getResponseFromAPI() {
-  const promise = new Promise((resolve, reject) => {
-    const error = false;
-    if (error) {
-      resolve('Hello resolved');
-    } else reject(new Error('something bad happened'));
-  });
-  return promise;
+  // eslint-disable-next-line no-unused-vars
+  return new Promise((r) => true);
 }
